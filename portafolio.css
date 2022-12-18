@@ -51,7 +51,10 @@ header {
   padding: 5%;
   display: grid;
   place-content: center;
+}
 
+.portafolio div {
+  font-weight: 300;
 }
 
 .h2 {
