@@ -44,3 +44,11 @@ header {
   border-color: transparent;
   padding: 8px 12px;
 }
+
+.contact-body .title-section {
+  text-align: center;
+}
+
+.contact-body .title-section h4 {
+  font-weight: 300;
+}
