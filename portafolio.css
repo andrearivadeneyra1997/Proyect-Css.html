@@ -82,6 +82,7 @@ header {
 
 .grid-project .project {
   background: #FFFFFF;
+  border-radius: 8px 0 0 0;
   padding: 24px;
 }
 
@@ -90,7 +91,8 @@ header {
 }
 
 .grid-project .project .icons-section {
-  text-align: end;
+  display: flex;
+  justify-content: space-between;
 }
 
 .help {
