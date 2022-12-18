@@ -111,3 +111,7 @@ header {
 .grid-elements div {
   padding: 10px;
 }
+
+.grid-elements .read-more {
+  color: #BE185D;
+}
