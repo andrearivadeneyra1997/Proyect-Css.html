@@ -45,10 +45,37 @@ header {
   padding: 8px 12px;
 }
 
+.contact-body {
+  display: grid;
+  place-content: center;
+}
+
 .contact-body .title-section {
   text-align: center;
 }
 
 .contact-body .title-section h4 {
   font-weight: 300;
+}
+
+form {
+  width: 100%;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: 480px 480px;
+  grid-template-rows: auto auto;
+  gap: 40px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form div label {
+  font-weight: 300;
+}
+
+form div input {
+  width: 300px;
 }
