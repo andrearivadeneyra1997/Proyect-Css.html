@@ -59,23 +59,43 @@ header {
 }
 
 form {
+  margin: 0 auto;
+  padding: 32px 0;
   width: 100%;
-  max-width: 900px;
+  max-width: 760px;
+}
+
+form button {
+  background-color: #DB2777;
+  width: 100%;
+  height: 40px;
+  margin-top: 32px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  color: white;
+}
+
+.form-body {
   display: grid;
-  grid-template-columns: 480px 480px;
+  grid-template-columns: 380px 380px;
   grid-template-rows: auto auto;
   gap: 40px;
 }
 
-form div {
+.form-body div {
   display: flex;
   flex-direction: column;
 }
 
-form div label {
+.form-body div label {
   font-weight: 300;
 }
 
-form div input {
+.form-body div input {
   width: 300px;
+  margin-top: 5px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: solid 1px #374151;
 }
