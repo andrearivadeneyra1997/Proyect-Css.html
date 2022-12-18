@@ -92,10 +92,15 @@ form button {
   font-weight: 300;
 }
 
-.form-body div input {
+.form-body div input,
+.form-body div select {
   width: 300px;
   margin-top: 5px;
   padding: 8px 12px;
   border-radius: 6px;
   border: solid 1px #374151;
+}
+
+.form-body div select {
+  width: 330px;
 }
