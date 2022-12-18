@@ -1,0 +1,125 @@
+* {
+  font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: #F3F4F6;
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.superior {
+  background: #D6D3D1;
+  text-align: center;
+  padding: 48px 0px;
+
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #DB2777;
+  margin: 0 5px;
+}
+
+.nav-button {
+  background-color: #DB2777;
+  color: white !important;
+  border-radius: 10px;
+  border-color: transparent;
+  padding: 8px 12px;
+}
+
+.name {
+  color: #DB2777;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #111827;
+}
+
+.h2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.skills {
+  background: #F3F4F6;
+  padding: 5%;
+  display: grid;
+  place-content: center;
+
+}
+
+.skill .title {
+  display: flex;
+}
+
+.skill .title h4 {
+  margin-left: 20px;
+}
+
+.skill .description {
+  padding: 0 46px;
+}
+
+.hobbies {
+  background: #E5E7EB;
+  padding: 5%;
+  display: grid;
+  place-content: center;
+}
+
+.grid-elements {
+  display: grid;
+  grid-template-columns: 480px 480px;
+  grid-template-rows: auto auto;
+  gap: 32px;
+}
+
+.grid-hobbies {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 320px 320px 320px;
+  grid-template-rows: auto auto auto;
+  gap: 25px;
+  text-align: center;
+}
+
+.help {
+  background: #D6D3D1;
+  display: grid;
+  place-content: center;
+  padding: 2%;
+}
+
+.help button {
+  background-color: #DB2777;
+  color: white;
+  border-radius: 8px;
+  border-color: transparent;
+  width: 55%;
+  height: 150%;
+  margin: 0 auto;
+  font-size: 18px;
+
+}

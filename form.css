@@ -1,0 +1,46 @@
+* {
+  font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: #F3F4F6;
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #111827;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #DB2777;
+  margin: 0 5px;
+}
+
+.nav-button {
+  background-color: #DB2777;
+  color: white !important;
+  border-radius: 10px;
+  border-color: transparent;
+  padding: 8px 12px;
+}

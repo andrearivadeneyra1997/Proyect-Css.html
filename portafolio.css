@@ -1,0 +1,99 @@
+* {
+  font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: #F3F4F6;
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+
+}
+
+.logo a {
+  text-decoration: none;
+  color: #111827;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #DB2777;
+  margin: 0 5px;
+}
+
+.nav-button {
+  background-color: #DB2777;
+  color: white !important;
+  border-radius: 10px;
+  border-color: transparent;
+  padding: 8px 12px;
+}
+
+.portafolio {
+  background: #F3F4F6;
+  padding: 5%;
+  display: grid;
+  place-content: center;
+
+}
+
+.h2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 0%;
+}
+
+.h6 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0%;
+}
+
+.grid-project {
+  display: grid;
+  grid-template-columns: 480px 480px;
+  grid-template-rows: auto auto;
+  margin-top: 16px;
+  gap: 32px;
+}
+
+.grid-project .project {
+  background: #FFFFFF;
+  padding: 24px;
+}
+
+.help {
+  background: #D6D3D1;
+  display: grid;
+  place-content: center;
+  padding: 2%;
+
+}
+
+.help button {
+  background-color: #DB2777;
+  color: white;
+  border-radius: 10px;
+  border-color: transparent;
+  width: 41%;
+  margin: 0 auto;
+}
